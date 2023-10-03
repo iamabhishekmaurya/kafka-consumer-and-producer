@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch SpringKafkaProducerApplication",
+            "request": "launch",
+            "mainClass": "com.kafka.producer.sptingkafkaproducer.SpringKafkaProducerApplication",
+            "projectName": "spting-kafka-producer"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringBootKafkaExampleApplication<spring-boot-kafka-example>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.kafka.example.springbootkafkaexample.SpringBootKafkaExampleApplication",
+            "projectName": "spring-boot-kafka-example",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SptingKafkaProducerApplication<spting-kafka-producer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.kafka.producer.sptingkafkaproducer.SptingKafkaProducerApplication",
+            "projectName": "spting-kafka-producer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringKafkaConsumerApplication<spring-kafka-consumer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.kafka.consumer.springkafkaconsumer.SpringKafkaConsumerApplication",
+            "projectName": "spring-kafka-consumer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
